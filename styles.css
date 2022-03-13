@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section li{
+    list-style-type: none;
+}
+section img{
+    border-radius: 10px;
+}
+nav div{
+margin:0px;
+padding: 0;
+display: flex;
+background-color: gray;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+nav li{
+    display: flex;
+    margin: 0 15px;
+    
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav a{
+color: white;
+text-decoration: none;
+
+
+
+
+}
+.lewa-nav{
+    display: flex;
+   
+   justify-content: space-between;
+   align-items: center;
+   
+
+    
+
+
+}
+.prawa-nav{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-right: 1cm;
+   
+
+
+}
+
+.srodek-nav{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    display: flex;
+    background-color: grey;
+    color: white;
+    flex-direction: column;
+    
+    align-items: center;
+
+    
+}
+.srodek-nav h2{
+    font-size: 1cm;
+    margin:0;
+}
+.pod-tlem{
+display: flex;
+justify-content: center;
+background-color: rgb(250, 241, 241);
+height: 3cm;
+
+}
+section img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.div-srodek{
+    margin: 0 ;
+    padding: 0;
+    margin-top: 90px;
+    display: flex;
+   
+    justify-content:center;
+    /* align-items: center; */
+}
+
+.monster img{
+    border-radius: 15px;
+    flex-grow: 2;
+    margin-right: 10px;
+}    
+.div-pierwsza img{
+    width: 100%;
+    max-width: 5cm;
+    border-radius: 15px;
+}
+.div-druga img{
+    width: 200%;
+    max-width: 5cm;
+    border-radius: 15px;
+}
+.lol2{
+    max-width: 5cm;
+}
+.robot2{
+    max-width: 5cm;
+    
+}
+.div-pierwsza{
+    
+display: flex;
+
+}
+.div-druga{
+    display: flex;
+    padding-top: 20px;
+}
+.div-monster-text{
+    /* margin-left: -40px;
+    margin-top: 0; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content:left; */
+    margin-left: -40px;
+    margin-top: -30px;
+}
+
+.div-monster-text button{
+    background-color: rgb(2, 108, 223);
+    color: white;
+    text-align: center;
+    max-width: 3cm;
+    padding: 7px 12px;
+    font-family: inherit;
+    
+    border-radius: 4px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+.div-monster-text-button{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.srodek-2 img{
+    
+    /* padding: 0 1cm; */
+    
+    height: 5cm;
+    width:  5cm;
+    
+    
+    display: flex;
+    justify-content: right;
+    border-radius: 15px;
+    margin-bottom: 5%;
+
+}
+footer{
+    background-color: #353c42;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 8cm;
+    padding-right: 8cm;
+    
+}
+footer div{
+    max-width: 100%;
+    padding: 50px 44px;
+    
+}
+/* footer p{
+    padding-bottom: 24px;
+    margin:0 100px;
+}  */
+/* footer.stopka{
+    display: flex;
+    background-color: red;
+    
+    
+} */
+.koniec{
+    background-color: #353c42;
+}
+.koniec-ostateczny{
+    background-color: #353c42;
+    color: white;
+    max-width: 100%;
+    margin: 0 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5%;
+    margin-bottom: 100px;
+
+
+    
+    
+}
+.koniec-ostateczny h2{
+    padding-right: 10px;
+}
+hr{
+    background-color: white;
+    color: white;
+    margin: 0 21%;
+    width: 60%;
+    height: 0.1px;
+    
+    
+}
+.div-pierwsza ul{
+    padding-left: 2%;
+}
+.div-druga ul{
+    padding-left: 3%;
+}
+.srodek-2-1{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15%;
+}
+.srodek-2 h2{
+    margin-left: 20.8%;
+    margin-top: 5%;
+}
+.tabele{
+    justify-content: center;
+    padding-bottom: 40px;
+    
+}
+
+.tabele button{
+    background-color: rgb(2, 108, 223);
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    height: 40px;
+    padding: 7px 16px;
+    font-family: inherit;
+    
+    border-radius: 4px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    margin-left: -77px;
+}
+.koniec-ostateczny img{
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    background-color: #353c42;
+}
+.koniec-ostateczny-img{
+    background-color: #353c42;
+    
+}
+.koniec-ostateczny-lewa{
+    background-color: #353c42;
+}
